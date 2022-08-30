@@ -1,0 +1,132 @@
+body {
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='66' height='66' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d4d4d4' fill-opacity='0.38'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.38'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.card {
+  background-color: #f7f5f5;
+  border-radius: 30px;
+  width: 800px;
+  height: 500px;
+  margin: 100px auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  height: 90%;
+}
+
+.desc {
+  width: 50%;
+  margin: 10px 30px;
+  flex: 1;
+  font-size: large;
+}
+
+.contenedorFoto {
+  width: 50%;
+  position: relative;
+  clip-path: circle(60.0% at 70% 50%);
+  background-color: blue;
+  border-radius: 0 30px 0 0;
+}
+.contenedorFoto:hover {
+  background-color: #4545f8;
+}
+
+.foto {
+  width: 400px;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+
+.contenedorCv {
+  display: flex;
+  border-top: 2px solid #d8d0d0;
+}
+.cv {
+  font-weight: bold;
+  font-size: 15px;
+  height: 35px;
+  width: 150px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.cv a {
+  text-decoration: none;
+  color: white;
+}
+
+.cv:hover {
+  background-color: #4545f8;
+}
+
+.contenedorRedes {
+  margin-top: 70px  ;
+}
+
+.redes {
+  width: 40px;
+  padding-right: 40px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 350px;
+    height: 900px;
+    margin: 40px auto;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .desc {
+    width: 320px;
+    margin: 5px 15px;
+  }
+
+  .contenedorFoto {
+    width: 100%;
+    clip-path: none;
+   
+  }
+
+  .foto{
+    width: 350px;
+    bottom: 40px;
+    right: 0;
+  }
+
+
+  .contenedorRedes {
+    margin-top: 30px  ;
+  }
+
+  .contenedorCv {
+    display: block;
+    border-top: none;
+  }
+  .cv {
+    font-weight: bold;
+    font-size: 15px;
+    height: 35px;
+    width: 90%;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+
+  .redes {
+    width: 50px;
+    padding: 20px 15px 0 15px;
+  }
+}
