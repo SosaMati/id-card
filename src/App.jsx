@@ -21,7 +21,7 @@ function App() {
              incrementar mis conocimientos y habilidades en el mundo IT.
           </p>
           <div className='contenedorRedes'>
-            <h4>Te invito a que me conozcas un poco mas </h4>
+            <h4>Te invito a que me conozcas un poco más </h4>
             <a href="https://www.linkedin.com/in/matiasezequielsosa/" target="_blank" rel="noreferrer" ><img className='redes' src={linkedin} alt="linkedin" /></a>
             <a href="https://github.com/SosaMati" target="_blank" rel="noreferrer" ><img className='redes' src={github} alt="linkedin" /></a>
             <a href="mailto:matiasezequielsosa@gmail.com" target="_blank" rel="noreferrer" ><img className='redes' src={gmail} alt="linkedin" /></a>
