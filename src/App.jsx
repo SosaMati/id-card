@@ -9,7 +9,7 @@ function App() {
 
   return (
     
-    <div className='card'>
+    <div className='card animate__animated animate__fadeInDown'>
 
       <div className='wrapper'>
 
