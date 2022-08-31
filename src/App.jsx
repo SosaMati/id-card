@@ -40,8 +40,8 @@ function App() {
       </div>
 
         <div className='contenedorCv'>
-          <div className='cv'> <a href="https://www.canva.com/design/DAEo4LWsASs/7aF5F49495bUy1PgDnFNQw/view?" target="_blank" rel="noreferrer">VER CV</a> </div>
-          <div className='cv'> <a href="https://matiasezequielsosa.vercel.app/" target="_blank" rel="noreferrer">VER PORTFOLIO</a> </div>
+          <a className='cv' href="https://www.canva.com/design/DAEo4LWsASs/7aF5F49495bUy1PgDnFNQw/view?" target="_blank" rel="noreferrer">VER CV</a> 
+          <a className='cv' href="https://matiasezequielsosa.vercel.app/" target="_blank" rel="noreferrer">VER PORTFOLIO</a> 
         </div>
 
 
