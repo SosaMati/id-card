@@ -98,24 +98,34 @@ body {
 
   .desc {
     width: 320px;
-    margin: 5px 15px;
+    margin: 5px 15px 0px 15px;
+  }
+
+  .desc h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .desc p {
+    margin-top: 30px;
   }
 
   .contenedorFoto {
     width: 100%;
-    clip-path: none;
-   
+    height: 400px;
+    border-radius: 0px;
+    clip-path: circle(60.0% at 70% 60%);
   }
 
   .foto{
     width: 350px;
-    bottom: 80px;
+    bottom: 0px;
     right: 0;
   }
 
 
   .contenedorRedes {
-    margin-top: 30px  ;
+    margin-top: 40px  ;
   }
 
   .contenedorCv {
@@ -137,6 +147,7 @@ body {
   }
 
   .logo {
-    display: none;
+    width: 200px;
+    margin-top: 10px;
   }
 }
