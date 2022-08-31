@@ -10,6 +10,7 @@ body {
   height: 500px;
   margin: 100px auto;
   font-family: 'Lato', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .wrapper {
@@ -42,6 +43,11 @@ body {
   right: 0;
 }
 
+.logo {
+  width: 260px;
+  margin: 0 0 0 140px;
+}
+
 .contenedorCv {
   display: flex;
   border-top: 2px solid #d8d0d0;
@@ -70,7 +76,7 @@ body {
 }
 
 .contenedorRedes {
-  margin-top: 70px  ;
+  margin-top: 45px  ;
 }
 
 .redes {
@@ -82,7 +88,7 @@ body {
 @media screen and (max-width: 480px) {
   .card {
     width: 350px;
-    height: 900px;
+    height: 1000px;
     margin: 40px auto;
   }
 
@@ -103,7 +109,7 @@ body {
 
   .foto{
     width: 350px;
-    bottom: 40px;
+    bottom: 80px;
     right: 0;
   }
 
@@ -128,5 +134,9 @@ body {
   .redes {
     width: 50px;
     padding: 20px 15px 0 15px;
+  }
+
+  .logo {
+    display: none;
   }
 }

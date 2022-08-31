@@ -4,6 +4,7 @@ import linkedin from './img/linkedin.png'
 import github from './img/github.png'
 import gmail from './img/gmail.png'
 import whatsapp from './img/whatsapp.png'
+import react from './img/react.svg'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
 
         <div className='desc'>
           <h1>Matías Ezequiel Sosa</h1>
+          <span>Fullstack developer</span>
 
           <p>¡Hola!, soy Matías estudiante avanzado de la Tecnicatura en Programación y también de forma autodidacta.
              Me considero una persona comprometida con el estudio,  día a día me capacito para poder 
@@ -31,6 +33,7 @@ function App() {
         </div>
 
         <div className='contenedorFoto'>
+          <img className='logo' src={react} alt="react logo" />
           <img className='foto' src={fotoPerfil} alt="yo" />
         </div>
 
